@@ -1,7 +1,7 @@
 describe("web tables", () => {
   beforeEach(() => {
     // Visit the demo website
-    cy.visit("https://demoqa.com/");
+    cy.visit("/");
     
     // Navigate to the Elements section
     cy.get('.category-cards > :nth-child(1)').should('contain', 'Elements').click();
@@ -10,7 +10,7 @@ describe("web tables", () => {
     cy.get('.element-list.collapse.show > ul > :nth-child(4)').should('contain', 'Web Tables').click();
     
     // Assert that the URL is correct after navigation
-    cy.url().should('eq', 'https://demoqa.com/webtables'); // Verify the URL
+    cy.url().should('eq', Cypress.config('baseUrl') + '/webtables'); // Verify the URL
 
     Cypress.on('uncaught:exception', (err, runnable) => {
       // returning false here prevents Cypress from failing the test
