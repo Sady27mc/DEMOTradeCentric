@@ -10,7 +10,7 @@ cypress/e2e
 2. README document contains:
 - Instalation guide for NPM;
 - Cypress instalation and running guide;
-- Encountered issues and suggested solutions;
+- Encountered issues and suggested solutions.
 
 # Requirements
 To run this project you will need NodeJS installed on your system (v20 or newer).
@@ -65,7 +65,7 @@ npx cypress open
 10. Repeat from step 1.
 
 
-# Encountered issue:
+# Encountered issues:
 
 1. **Cypress uncaught error in application code** - Caused Cypress tests to fail at different steps without a repo.
 
