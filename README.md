@@ -9,7 +9,13 @@ To run this project you will need Node installed on your system (v20 or newer).
 
 ```
 npm i
+npm install cypress --save-dev
 ```
+
+> npm i - installs all the dependencies listed in package.json
+
+> npm install cypress --save-dev - installs cypress and updates package.json to contain it
+
 
 2. to run cypress simply execut this terminal command from the root of the project:
 
