@@ -1,0 +1,23 @@
+{
+  "name": "cyautotradecentric",
+  "version": "1.0.0",
+  "description": "Test project for jobrole at TradeCentric.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sady27mc/Cypress_TradeCentric.git"
+  },
+  "author": "Sady",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sady27mc/Cypress_TradeCentric/issues"
+  },
+  "homepage": "https://github.com/Sady27mc/Cypress_TradeCentric#readme",
+  "devDependencies": {
+    "cypress": "^13.13.2",
+    "cypress-xpath": "^2.0.1"
+  }
+}

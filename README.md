@@ -1,7 +1,23 @@
-test test
 
 
-DOcumentation to be written
+# Requirements
+To run this project you will need Node installed on your system (v20 or newer).
+
+# Set-up and run
+
+1. install requiremets using npm. Run this terminal command from root of project:
+
+```
+npm i
+```
+
+2. to run cypress simply execut this terminal command from the root of the project:
+
+```
+npx cypress open
+```
+
+
 
 # Git Steps from VSCode
 

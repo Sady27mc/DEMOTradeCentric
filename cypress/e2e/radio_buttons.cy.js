@@ -8,8 +8,8 @@ describe("radio buttons", () => {
     });
   });
 
-  // TC1 - Navigate to Radio Button section
-  it('navigate to the Radio Button section', () => {
+  // TC1 - Navigate to Radio Button page
+  it('navigate to the Radio Button page', () => {
     // Navigate to the Elements section
     cy.get('.category-cards > :nth-child(1)').should('contain', 'Elements').click();
 
